@@ -10,5 +10,5 @@ while ($row = $result->fetch_assoc()) {
 }
 ?>
 <form action="dbconnect.php">
-     <input type="submit" value="Перейти на dbconnect" class="button1" /> <!--переход по кнопке на страницу -->
+     <input type="submit" value="Перейти на dbconnect11111" class="button1" /> <!--переход по кнопке на страницу -->
 </form>
