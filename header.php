@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="styles.css">
 <div id = "wrap">
-<header>
+<header class="header1">
     <div class = "title">Название сайта</div>
 <ul class = "menu">
 		<li><a href = "#">Контакты</a></li>
