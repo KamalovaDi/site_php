@@ -10,9 +10,9 @@
 	height: 70px;
 }
 .title {
-	font-size: 36px;
-	padding-top: 10px;
-	text-align: center;
+	padding-top: 5px;
+	height: 600px;
+	margin-left : 10px;
 }
 .menu {
 	list-style: none;
