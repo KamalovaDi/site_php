@@ -20,3 +20,19 @@
 	top: 10px;
 	right: 100px;
 }
+.logo {
+	height: 10%;
+	width: 10%;
+}
+.button_login {
+	margin-top: 100px;
+}
+.button_exit {
+	margin-top: 100px;
+}
+.button_contacts {
+	margin-top: 100px;
+}
+.button_catalog {
+	margin-top: 100px;
+}
