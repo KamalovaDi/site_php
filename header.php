@@ -2,7 +2,7 @@
 <div id = "wrap">
 <header class="header1">
     <div class = "title">
-		<a href="#"><img src="img/pg1.jpg" class="logo"></a>
+		<a href="index.php"><img src="img/pg1.jpg" style="height: 10%; width: 10%;"></a>
 	</div>
 <ul class = "menu">
 		<li><a href = "#" class="button_login">Логин</a></li>
