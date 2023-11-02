@@ -4,6 +4,8 @@ include("header.php");
 ?>
 
 <link rel="stylesheet" href="test.css">
+<div class="search"> 
+
 <div class="dropdown">
 <meta charset="UTF-8">
     <button class="dropbtn">Выпадающее</button>
@@ -22,4 +24,15 @@ include("header.php");
             <li><a href="#">Категория11</a></li>
         </ul>
     </div>
+    </div>
+    <div class="search_cat_div">
+    <form action = "#">
+        <div class ="search_cat">
+            "All cat"
+            ::after
+        </div>
+    <input type="text" placeholder="vgbg">
+    <button type="search" class="site-btn"></button>
+</form>
+</div>
 </div>

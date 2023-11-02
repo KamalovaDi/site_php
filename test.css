@@ -5,20 +5,16 @@
     padding: 16px;
     font-size: 16px;
     border: none; 
-    width: 20%;
+    width: 100%;
     margin-top: inherit;
   }
   
   /* Контейнер <div> - необходим для размещения выпадающего содержимого */
   .dropdown {
     position: relative;
-    
-    margin-top: inherit;
-    display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    width: 100%;
-    height: 60px;
+    width: 20%;
   }
   
   /* Выпадающее содержимое (скрыто по умолчанию) */
@@ -29,8 +25,8 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    width: 21%;
-    top: 54px;
+    width: 100%;
+    top: 50px;
   }
   
   /* Ссылки внутри выпадающего списка */
@@ -51,14 +47,16 @@
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
   
   
-.row {
-    display: -ms-flexbox;
+.search {
+
     display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    width: 100%;
-    height: 60px;
+    margin-top: 10;
 }
 
+::after {
+  box-sizing: border-box;
+}
+
+.search_cat_div {
+  display: inline;
+}
