@@ -26,13 +26,13 @@ include("header.php");
         </div>
 </div>
     <div class="search_cat_div">
-        <form action = "#">
-            <div class ="search_cat">
-                "All cat"
-                ::after
-            </div>
-            <input type="text" placeholder="vgbg">
-            <button type="search" class="site-btn"></button>
+        <!-- <form action = "#" method="get">
+            <input name="text" placeholder="vgbg" type="search">
+            <button type="submit">Gjbcr</button>
         </form>
+        <form>
+            <input type="text" placeholder="Искать здесь...">
+            <button type="submit"></button>
+        </form> -->
     </div>
 </div>
