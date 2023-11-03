@@ -60,7 +60,7 @@
 .search_cat_div {
   display: inline;
 }
-/* input::-webkit-input-placeholder {
+input::-webkit-input-placeholder {
   color: #B6C0A5; 
   font-style: italic; 
   background: #E0EFCA;
@@ -107,4 +107,4 @@ button:before {
   font-family: FontAwesome;
   font-size: 16px;
   color: #F9F0DA;
-} */
+}

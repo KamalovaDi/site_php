@@ -2,12 +2,12 @@
 include("dbconnect.php");
 include("header.php");
 ?>
-
+<meta charset="UTF-8">
 <link rel="stylesheet" href="test.css">
 <div class="search"> 
 
 <div class="dropdown">
-<meta charset="UTF-8">
+
     <button class="dropbtn">Выпадающее</button>
         <div class="dropdown-content">
         <ul>
@@ -29,12 +29,12 @@ include("header.php");
         <!-- <form action = "#" method="get">
             <input name="text" placeholder="vgbg" type="search">
             <button type="submit">Gjbcr</button>
-        </form>
+        </form> -->
         <form>
             <input type="text" placeholder="Искать здесь...">
             <button type="submit"></button>
-        </form> -->
-        <div class ="search_cat1">
+        </form>
+        <!-- <div class ="search_cat1">
             <form action = "#">
                 <div class ="search_cat">
                 "All cat"
@@ -43,7 +43,7 @@ include("header.php");
             <input type="text" placeholder="vgbg">
             <button type="search" class="site-btn"></button>
         </form>
-        </div>
+        </div> -->
     </div>
     
 </div>
