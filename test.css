@@ -53,13 +53,10 @@
     margin-top: 10;
 }
 
-::after {
-  box-sizing: border-box;
-}
-
 .search_cat_div {
   display: inline;
 }
+
 input::-webkit-input-placeholder {
   color: #B6C0A5; 
   font-style: italic; 
@@ -75,6 +72,7 @@ input:-ms-input-placeholder {
   font-style: italic; 
   background: #E0EFCA;
 }
+
 * {box-sizing: border-box;}
 form {
   position: relative;
