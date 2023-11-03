@@ -34,5 +34,16 @@ include("header.php");
             <input type="text" placeholder="Искать здесь...">
             <button type="submit"></button>
         </form> -->
+        <div class ="search_cat1">
+            <form action = "#">
+                <div class ="search_cat">
+                "All cat"
+                ::after
+                </div>
+            <input type="text" placeholder="vgbg">
+            <button type="search" class="site-btn"></button>
+        </form>
+        </div>
     </div>
+    
 </div>
