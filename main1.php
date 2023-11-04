@@ -4,6 +4,8 @@ include("header.php");
 ?>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="test.css">
+<link rel="stylesheet" href="all.min.css">
+
 <div class="search"> 
 
 <div class="dropdown">

@@ -56,9 +56,10 @@
 .search_cat_div {
   display: inline;
 }
+/* ..... */
 
 input::-webkit-input-placeholder {
-  color: #B6C0A5; 
+  color: #48D1CC; 
   font-style: italic; 
   background: #E0EFCA;
 }
