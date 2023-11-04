@@ -51,18 +51,27 @@
 
     display: flex;
     margin-top: 10;
+    align-items: center; /*снизу\сверху*/
+    /*justify-content: center; /*слева\спрва*/
+    justify-content: space-between;
 }
 
 .search_cat_div {
   display: inline;
+  /* height: 50px; */
+  position: relative;
+  float: left;
+  /* padding-left: 300px; */
+  align-items: center;
+  /* margin-left: auto; */
 }
-/* ..... */
 
+/* Строка поиска */
 input::-webkit-input-placeholder {
-  color: #48D1CC; 
+  color: #9E9C9C; 
   font-style: italic; 
-  background: #E0EFCA;
 }
+
 input:-moz-placeholder {
   color: #B6C0A5; 
   font-style: italic; 
@@ -77,12 +86,12 @@ input:-ms-input-placeholder {
 * {box-sizing: border-box;}
 form {
   position: relative;
-  width: 300px;
+  width: 400px;
   margin: 0 auto;
 }
-input {
+.search_cat_div form input {
   width: 100%;
-  height: 42px;
+  height: 35px;
   padding-left: 10px;
   border: 2px solid #7BA7AB;
   border-radius: 5px;
@@ -90,20 +99,29 @@ input {
   background: #F9F0DA;
   color: #9E9C9C;
 }
-button {
+.searchbtn {
   position: absolute; 
   top: 0;
   right: 0px;
-  width: 42px;
-  height: 42px;
+  width: 35px;
+  height: 35px;
   border: none;
   background: #7BA7AB;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
 }
-button:before {
+.searchbtn:before {
   content: "\f002";
   font-family: FontAwesome;
   font-size: 16px;
   color: #F9F0DA;
 }
+.icon {
+  content: "\f004"; /* добавляем иконку дом */
+  font-family: FontAwesome;
+  color: #aaaaaa;
+  margin-right: 10px; 
+  font-size: 30px;
+  /* padding-left: 200px; */
+  justify-content: space-between;
+  }

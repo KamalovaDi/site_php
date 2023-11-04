@@ -4,7 +4,7 @@ include("header.php");
 ?>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="test.css">
-<link rel="stylesheet" href="all.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <div class="search"> 
 
@@ -28,24 +28,13 @@ include("header.php");
         </div>
 </div>
     <div class="search_cat_div">
-        <!-- <form action = "#" method="get">
-            <input name="text" placeholder="vgbg" type="search">
-            <button type="submit">Gjbcr</button>
-        </form> -->
-        <form>
+        <form action="" method="get">
             <input type="text" placeholder="Искать здесь...">
-            <button type="submit"></button>
+            <button class="searchbtn" type="submit"></button>
         </form>
-        <!-- <div class ="search_cat1">
-            <form action = "#">
-                <div class ="search_cat">
-                "All cat"
-                ::after
-                </div>
-            <input type="text" placeholder="vgbg">
-            <button type="search" class="site-btn"></button>
-        </form>
-        </div> -->
     </div>
-    
+    <span class="icon">
+        <i class="fa fa-heart fa-fw"></i>
+        <i class="fa fa-truck fa-fw"></i>
+    </span>
 </div>
