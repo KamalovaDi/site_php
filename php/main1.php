@@ -8,7 +8,7 @@ include("..\php\header.php");
 <link rel="stylesheet" href="../css/test.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-<div class="container">
+<div class="containerr">
     <div class="search"> 
         <div class="category-wrap1"> 
             <div class="category-wrap">

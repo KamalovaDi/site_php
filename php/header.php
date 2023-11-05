@@ -1,6 +1,6 @@
 <head>
 <link rel="stylesheet" href="../css/styles11.css">
-<div class="container">
+<div class="containerr">
 <div id = "wrap">
 <header class="header1">
     <div class = "title">
