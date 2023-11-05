@@ -19,7 +19,7 @@
   
   /* Выпадающее содержимое (скрыто по умолчанию) */
   .dropdown-content {
-    display: none;
+    /* display: none; */
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
@@ -51,12 +51,105 @@
 
     display: flex;
     margin-top: 10;
-}
-
-::after {
-  box-sizing: border-box;
+    align-items: center; /*снизу\сверху*/
+    /*justify-content: center; /*слева\спрва*/
+    justify-content: space-between;
 }
 
 .search_cat_div {
   display: inline;
+  /* height: 50px; */
+  position: relative;
+  float: left;
+  /* padding-left: 300px; */
+  align-items: center;
+  /* margin-left: auto; */
+}
+
+/* Строка поиска */
+input::-webkit-input-placeholder {
+  color: #9E9C9C; 
+  font-style: italic; 
+}
+
+input:-moz-placeholder {
+  color: #B6C0A5; 
+  font-style: italic; 
+  background: #E0EFCA;
+}
+input:-ms-input-placeholder {
+  color: #B6C0A5; 
+  font-style: italic; 
+  background: #E0EFCA;
+}
+
+* {box-sizing: border-box;}
+form {
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+}
+.search_cat_div form input {
+  width: 100%;
+  height: 35px;
+  padding-left: 10px;
+  border: 2px solid #7BA7AB;
+  border-radius: 5px;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+}
+.searchbtn {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 35px;
+  height: 35px;
+  border: none;
+  background: #7BA7AB;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.searchbtn:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+.icon {
+  content: "\f004"; /* добавляем иконку дом */
+  font-family: FontAwesome;
+  color: #aaaaaa;
+  margin-right: 10px; 
+  font-size: 30px;
+  /* padding-left: 200px; */
+  justify-content: space-between;
+  }
+
+  /* ..... */
+  elemnt.style{
+    background-image: url(banner-1.jpg);
+  }
+  .hero__item {
+    height: 431px;
+    display: flex;
+    align-items: center;
+    padding-left: 75px;
+    width: 80%;
+    margin-left: 262px;
+}
+.set-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+.primary-btn {
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 28px 10px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #7fad39;
+  letter-spacing: 2px;
 }
