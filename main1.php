@@ -9,26 +9,19 @@ include("header.php");
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <div class="search"> 
-
-<div class="dropdown">
-
-    <button class="dropbtn">Выпадающее</button>
-        <div class="dropdown-content">
+<div class="category-wrap1"> 
+    <div class="category-wrap">
+        <h3>Категории</h3>
         <ul>
-                <li><a href="#">Категория1</a></li>
-                <li><a href="#">Категория2</a></li>
-                <li><a href="#">Категория3</a></li>
-                <li><a href="#">Категория4</a></li>
-                <li><a href="#">Категория5</a></li>
-                <li><a href="#">Категория6</a></li>
-                <li><a href="#">Категория7</a></li>
-                <li><a href="#">Категория8</a></li>
-                <li><a href="#">Категория9</a></li>
-                <li><a href="#">Категория10</a></li>
-                <li><a href="#">Категория11</a></li>
-            </ul>
-        </div>
+            <li><a href="">Дизайн</a></li>
+            <li><a href="">Фотошоп</a></li>
+            <li><a href="">Книги</a></li>
+            <li><a href="">Журналы</a></li>
+            <li><a href="">Картинки</a></li>
+        </ul>
+    </div>
 </div>
+<div class="row"> 
     <div class="search_cat_div">
         <form action="" method="get">
             <input type="text" placeholder="Искать здесь...">
@@ -40,13 +33,7 @@ include("header.php");
         <i class="fa fa-truck fa-fw"></i>
     </span>
 
-   
-
-
-</div>
-
-
-<div class="hero__item set-bg" data-setbg="banner-1.jpg" 
+    <div class="hero__item set-bg" data-setbg="banner-1.jpg" 
     style="background-image: url(&quot;banner-1.jpg&quot;);">
         <div class="hero__text">
             <span>FRUIT FRESH</span>
@@ -55,3 +42,8 @@ include("header.php");
                      <a href="#" class="primary-btn">SHOP NOW</a>
         </div>
     </div>
+    </div>
+
+</div>
+
+
