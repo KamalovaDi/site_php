@@ -19,7 +19,7 @@
   
   /* Выпадающее содержимое (скрыто по умолчанию) */
   .dropdown-content {
-    display: none;
+    /* display: none; */
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
@@ -135,6 +135,8 @@ form {
     display: flex;
     align-items: center;
     padding-left: 75px;
+    width: 80%;
+    margin-left: 262px;
 }
 .set-bg {
   background-repeat: no-repeat;

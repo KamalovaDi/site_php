@@ -42,6 +42,8 @@ include("header.php");
 
 
 </div>
+
+
 <div class="hero__item set-bg" data-setbg="banner-1.jpg" 
     style="background-image: url(&quot;banner-1.jpg&quot;);">
         <div class="hero__text">
