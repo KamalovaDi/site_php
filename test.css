@@ -125,3 +125,29 @@ form {
   /* padding-left: 200px; */
   justify-content: space-between;
   }
+
+  /* ..... */
+  elemnt.style{
+    background-image: url(banner-1.jpg);
+  }
+  .hero__item {
+    height: 431px;
+    display: flex;
+    align-items: center;
+    padding-left: 75px;
+}
+.set-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+.primary-btn {
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 28px 10px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #7fad39;
+  letter-spacing: 2px;
+}

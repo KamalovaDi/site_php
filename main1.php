@@ -37,4 +37,17 @@ include("header.php");
         <i class="fa fa-heart fa-fw"></i>
         <i class="fa fa-truck fa-fw"></i>
     </span>
+
+   
+
+
 </div>
+<div class="hero__item set-bg" data-setbg="banner-1.jpg" 
+    style="background-image: url(&quot;banner-1.jpg&quot;);">
+        <div class="hero__text">
+            <span>FRUIT FRESH</span>
+                 <h2>Vegetable <br>100% Organic</h2>
+                    <p>Free Pickup and Delivery Available</p>
+                     <a href="#" class="primary-btn">SHOP NOW</a>
+        </div>
+    </div>
