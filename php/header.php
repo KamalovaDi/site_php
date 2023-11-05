@@ -1,9 +1,10 @@
 <head>
-<link rel="stylesheet" href="styles11.css">
+<link rel="stylesheet" href="../css/styles11.css">
+<div class="container">
 <div id = "wrap">
 <header class="header1">
     <div class = "title">
-		<a href="index.php"><img src="pg1.jpg" style="height: 10%; width: 10%;"></a>
+		<a href="index.php"><img src="../img/pg1.jpg" style="height: 10%; width: 10%;"></a>
 	</div>
 <ul class = "menu">
 		<h4><li><a href = "#" >Каталог</a></li></h4>
@@ -14,5 +15,6 @@
 		<h4><li><a href = "#" >Выход</a></li></h4>
 </ul>
 </header>
+</div>
 </div>
 </head>

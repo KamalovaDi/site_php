@@ -6,7 +6,7 @@
 }
 .header1 {
     width: 100%;
-	background: #c7e1f3;
+	background: rgb(200, 235, 225);
 	height: 70px;
 }
 .title {
@@ -18,7 +18,7 @@
 	list-style: none;
 	position: absolute;
 	top: 10px;
-	right: 250px;
+	right: 330px;
 	display: inline-flex;
 	gap: 1rem;
 }
@@ -26,10 +26,14 @@
 	list-style: none;
 	position: absolute;
 	top: 10px;
-	right: 25px;
+	right: 160px;
 	display: inline-flex;
 	gap: 0.5rem;
 }
 h4 {
 	display: inline;
+}
+.container{
+	max-width: 1180px;
+	margin: 0 auto;
 }

@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="styles11.css">
 <?php
 $db_user = "root";
 $db_password = "9346936";
