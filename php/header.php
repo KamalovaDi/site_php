@@ -6,6 +6,7 @@
     <div class = "title">
 		<a href="index.php"><img src="../img/pg1.jpg" style="height: 10%; width: 10%;"></a>
 	</div>
+	<h4>ПРИФФФКИ ПРИВИВКИ</h4>
 <ul class = "menu">
 		<h4><li><a href = "#" >Каталог</a></li></h4>
 		<h4><li><a href = "#" >Контакты</a></li></h4>
